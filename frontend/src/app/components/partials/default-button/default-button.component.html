@@ -1,0 +1,14 @@
+<div class="container">
+  <button
+    [ngStyle]="{
+      color: color,
+      'background-color': bgColor,
+      'font-size.rem': fontSizeRem,
+      'width.rem': widhRem
+    }"
+    [type]="type"
+    (click)="onClick.emit()"
+  >{{text}}</button>
+</div>
+
+<!-- bl [ngStyle] 7etayna l background-color ben '' la2n fi  dash {-} w bas badi 7aded l unit li badi esta3mla metel {rem} b7eta ba3d l {.}  -->
